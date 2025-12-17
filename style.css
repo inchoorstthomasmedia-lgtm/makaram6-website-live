@@ -1,0 +1,51 @@
+:root{
+    margin: 2px;
+    padding: 10px 10px;
+}
+
+#logo {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1877f2;
+    text-transform: none;
+}
+.platforms {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.platforms p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* Base box style (moves inline styles here) */
+.platform-boxes {
+  text-align: center;
+  align-content: center;
+  padding: 15px;
+  padding-bottom: 0;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease; /* smooth hover */
+  margin-bottom: 12px; /* space between Facebook and YouTube boxes */
+}
+
+/* Hover effect */
+.platform-boxes:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: make link fill the box nicely */
+.platform-boxes a {
+  display: block;
+}
