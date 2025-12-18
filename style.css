@@ -49,3 +49,8 @@
 .platform-boxes a {
   display: block;
 }
+
+.platform-boxes p {
+  font-size: 13px;
+  color: #000000;
+}
